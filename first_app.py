@@ -14,7 +14,7 @@ vgg = VGG16(weights='imagenet',
 
 
 
-cni = load_model('C:/Users/Celia LAGARDE RAMORA/Desktop/CATS/vgg16_92.h5')
+cni = load_model('vgg16_92.h5')
  
 def preprocess_image(img):
     img = Image.open(img)
